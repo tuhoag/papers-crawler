@@ -18,8 +18,7 @@ def setup_logger(level):
     ch.setFormatter(formatter)
 
     logger.addHandler(ch)
-    # search_query = scholarly.search_pubs('Perception of physical stability and center of mass of 3D objects')
-    # print(next(search_query))
+
 
 
 def get_papers(file_path):
@@ -91,6 +90,25 @@ def get_papers(file_path):
 def get_short_papers(papers_df, min_num_pages = 5, max_num_pages = 6):
     return list(filter(lambda item: min_num_pages <= item["num_pages"] <= max_num_pages, papers_df))
 
+def update_cited_papers(papers_list):
+    for paper_dict in papers_list:
+        cited_papers = get_cited_paper_of_same_author(paper_dict)
+
+def get_cited_paper_of_same_author(paper_dict):
+    logger.info(paper_dict)
+    search_query = scholarly.search_pubs(paper_dict["title"])
+    for result in search_query:
+        logger.info(result)
+
+        for cited_paper in result.citedby:
+            logger.info("cited paper: {}".format(cited_paper))
+
+        bibtex = result.bibtex
+        logger.info(bibtex)
+        # logger.info(result.cites)
+
+        raise Exception()
+
 
 setup_logger(logging.INFO)
 all_papers = get_papers("icde_papers.json")
@@ -98,3 +116,5 @@ short_papers = get_short_papers(all_papers)
 
 logger.info("num of all papers: {}".format(len(all_papers)))
 logger.info("num of short papers: {}".format(len(short_papers)))
+
+update_cited_papers(short_papers)
