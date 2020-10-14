@@ -4,21 +4,10 @@ import json
 from scholarly import scholarly
 import pandas as pd
 
+from crawler import utils
+import crawler.opencitations as oct
+
 logger = logging.getLogger(__name__)
-
-def setup_logger(level):
-    logger.setLevel(level)
-
-    ch = logging.StreamHandler()
-    ch.setLevel(level)
-    # create formatter
-    formatter = logging.Formatter('%(asctime)s - %(name)s - %(levelname)s - %(message)s')
-
-    # add formatter to ch
-    ch.setFormatter(formatter)
-
-    logger.addHandler(ch)
-
 
 
 def get_papers(file_path):
@@ -74,7 +63,10 @@ def get_papers(file_path):
             # logger.info(info["authors"]["author"])
             logger.debug(authors_list)
             logger.debug(authors_str)
-            # raise Exception()
+
+            doi = info["doi"]
+            logger.debug(doi)
+
             raw_data.append({
                 "title": title,
                 "num_pages": num_pages,
@@ -83,6 +75,7 @@ def get_papers(file_path):
                 "year": year,
                 "num_authors": num_authors,
                 "authors": authors_list,
+                "doi": doi,
             })
 
     return raw_data
@@ -96,25 +89,16 @@ def update_cited_papers(papers_list):
 
 def get_cited_paper_of_same_author(paper_dict):
     logger.info(paper_dict)
-    search_query = scholarly.search_pubs(paper_dict["title"])
-    for result in search_query:
-        logger.info(result)
+    metadata = oct.get_citations(paper_dict["doi"])
+    logger.info(metadata)
+    raise Exception()
 
-        for cited_paper in result.citedby:
-            logger.info("cited paper: {}".format(cited_paper))
+utils.setup_logger(logger, logging.INFO)
 
-        bibtex = result.bibtex
-        logger.info(bibtex)
-        # logger.info(result.cites)
-
-        raise Exception()
-
-
-setup_logger(logging.INFO)
 all_papers = get_papers("icde_papers.json")
 short_papers = get_short_papers(all_papers)
 
 logger.info("num of all papers: {}".format(len(all_papers)))
 logger.info("num of short papers: {}".format(len(short_papers)))
-
+logger.info(short_papers[0])
 update_cited_papers(short_papers)
