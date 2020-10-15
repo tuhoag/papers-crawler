@@ -1,7 +1,6 @@
 import logging
 import json
 
-from scholarly import scholarly
 import pandas as pd
 
 from crawler import utils
@@ -93,12 +92,24 @@ def get_cited_paper_of_same_author(paper_dict):
     logger.info(metadata)
     raise Exception()
 
+def save_papers(papers, path):
+    """
+    docstring
+    """
+    df = pd.DataFrame(papers)
+    df.to_csv(path)
+
 utils.setup_logger(logger, logging.INFO)
 
-all_papers = get_papers("icde_papers.json")
+raw_papers_path = "icde_anony_papers.json"
+short_papers_path = "short_{}.csv".format(raw_papers_path.split(".")[0])
+
+all_papers = get_papers(raw_papers_path)
 short_papers = get_short_papers(all_papers)
 
 logger.info("num of all papers: {}".format(len(all_papers)))
 logger.info("num of short papers: {}".format(len(short_papers)))
 logger.info(short_papers[0])
-update_cited_papers(short_papers)
+# update_cited_papers(short_papers)
+
+save_papers(short_papers, short_papers_path)

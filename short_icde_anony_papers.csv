@@ -1,0 +1,4 @@
+,title,num_pages,start_page,end_page,year,num_authors,authors,doi
+0,On syntactic anonymity and differential privacy.,6,88,93,2013,2,"['Chris Clifton', 'Tamir Tassa']",10.1109/ICDEW.2013.6547433
+1,Empirical privacy and empirical utility of anonymized data.,6,77,82,2013,5,"['Graham Cormode', 'Cecilia M. Procopiuc', 'Entong Shen', 'Divesh Srivastava', 'Ting Yu']",10.1109/ICDEW.2013.6547431
+2,MultiRelational k-Anonymity.,5,1417,1421,2007,3,"['Mehmet Ercan Nergiz', 'Chris Clifton', 'Ahmet Erhan Nergiz']",10.1109/ICDE.2007.369025

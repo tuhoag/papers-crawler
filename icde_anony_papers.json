@@ -1,0 +1,290 @@
+{
+"result":{
+"query":":filter:venue:ICDE* anony*",
+"status":{
+"@code":"200",
+"text":"OK"
+},
+"time":{
+"@unit":"msecs",
+"text":"4.22"
+},
+"completions":{
+"@total":"5",
+"@computed":"5",
+"@sent":"5",
+"c":[
+{
+"@sc":"14",
+"@dc":"14",
+"@oc":"14",
+"@id":"24414741",
+"text":"anonymity"
+},
+{
+"@sc":"10",
+"@dc":"9",
+"@oc":"10",
+"@id":"24414746",
+"text":"anonymization"
+},
+{
+"@sc":"6",
+"@dc":"6",
+"@oc":"6",
+"@id":"24414750",
+"text":"anonymized"
+},
+{
+"@sc":"5",
+"@dc":"5",
+"@oc":"5",
+"@id":"24414755",
+"text":"anonymous"
+},
+{
+"@sc":"4",
+"@dc":"4",
+"@oc":"4",
+"@id":"24414754",
+"text":"anonymizing"
+}
+]
+},
+"hits":{
+"@total":"38",
+"@computed":"38",
+"@sent":"38",
+"@first":"0",
+"hit":[{
+"@score":"3",
+"@id":"3764644",
+"info":{"authors":{"author":[{"@pid":"88/5644","text":"Tochukwu Iwuchukwu"},{"@pid":"d/DJDeWitt","text":"David J. DeWitt"},{"@pid":"d/AnHaiDoan","text":"AnHai Doan"},{"@pid":"n/JeffreyFNaughton","text":"Jeffrey F. Naughton"}]},"title":"K-Anonymization as Spatial Indexing - Toward Scalable and Incremental Anonymization.","venue":"ICDE","pages":"1414-1416","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/IwuchukwuDDN07","doi":"10.1109/ICDE.2007.369024","ee":"https://doi.org/10.1109/ICDE.2007.369024","url":"https://dblp.org/rec/conf/icde/IwuchukwuDDN07"},
+"url":"URL#3764644"
+},
+{
+"@score":"2",
+"@id":"166810",
+"info":{"authors":{"author":[{"@pid":"94/4423","text":"Xun Yi"},{"@pid":"49/10309","text":"Russell Paulet"},{"@pid":"b/ElisaBertino","text":"Elisa Bertino"},{"@pid":"03/10736","text":"Fang-Yu Rao"}]},"title":"Practical Anonymous Subscription with Revocation Based on Broadcast Encryption.","venue":"ICDE","pages":"241-252","year":"2020","type":"Conference and Workshop Papers","key":"conf/icde/YiPBR20","doi":"10.1109/ICDE48307.2020.00028","ee":"https://doi.org/10.1109/ICDE48307.2020.00028","url":"https://dblp.org/rec/conf/icde/YiPBR20"},
+"url":"URL#166810"
+},
+{
+"@score":"2",
+"@id":"1212319",
+"info":{"authors":{"author":[{"@pid":"170/1839","text":"Jie-Teng Wang"},{"@pid":"16/4000","text":"Wen-Yang Lin"}]},"title":"Privacy Preserving Anonymity for Periodical SRS Data Publishing.","venue":"ICDE","pages":"1344-1355","year":"2017","type":"Conference and Workshop Papers","key":"conf/icde/WangL17","doi":"10.1109/ICDE.2017.176","ee":"https://doi.org/10.1109/ICDE.2017.176","url":"https://dblp.org/rec/conf/icde/WangL17"},
+"url":"URL#1212319"
+},
+{
+"@score":"2",
+"@id":"1527467",
+"info":{"authors":{"author":[{"@pid":"131/7172","text":"Olga Gkountouna"},{"@pid":"t/ManolisTerrovitis","text":"Manolis Terrovitis"}]},"title":"Anonymizing collections of tree-structured data.","venue":"ICDE","pages":"1520-1521","year":"2016","type":"Conference and Workshop Papers","key":"conf/icde/GkountounaT16","doi":"10.1109/ICDE.2016.7498404","ee":"https://doi.org/10.1109/ICDE.2016.7498404","url":"https://dblp.org/rec/conf/icde/GkountounaT16"},
+"url":"URL#1527467"
+},
+{
+"@score":"2",
+"@id":"2398683",
+"info":{"authors":{"author":[{"@pid":"c/CClifton","text":"Chris Clifton"},{"@pid":"04/2852","text":"Tamir Tassa"}]},"title":"On syntactic anonymity and differential privacy.","venue":"ICDE Workshops","pages":"88-93","year":"2013","type":"Conference and Workshop Papers","key":"conf/icde/CliftonT13","doi":"10.1109/ICDEW.2013.6547433","ee":"https://doi.org/10.1109/ICDEW.2013.6547433","url":"https://dblp.org/rec/conf/icde/CliftonT13"},
+"url":"URL#2398683"
+},
+{
+"@score":"2",
+"@id":"2398685",
+"info":{"authors":{"author":[{"@pid":"c/GrahamCormode","text":"Graham Cormode"},{"@pid":"05/906","text":"Cecilia M. Procopiuc"},{"@pid":"31/9364","text":"Entong Shen"},{"@pid":"s/DiveshSrivastava","text":"Divesh Srivastava"},{"@pid":"y/TingYu","text":"Ting Yu"}]},"title":"Empirical privacy and empirical utility of anonymized data.","venue":"ICDE Workshops","pages":"77-82","year":"2013","type":"Conference and Workshop Papers","key":"conf/icde/CormodePSSY13","doi":"10.1109/ICDEW.2013.6547431","ee":"https://doi.org/10.1109/ICDEW.2013.6547431","url":"https://dblp.org/rec/conf/icde/CormodePSSY13"},
+"url":"URL#2398685"
+},
+{
+"@score":"2",
+"@id":"2398763",
+"info":{"authors":{"author":[{"@pid":"59/1592","text":"Balaji Palanisamy"},{"@pid":"131/4776","text":"Sindhuja Ravichandran"},{"@pid":"l/LingLiu","text":"Ling Liu 0001"},{"@pid":"84/10788","text":"Binh Han"},{"@pid":"99/4464","text":"Kisung Lee"},{"@pid":"p/CaltonPu","text":"Calton Pu"}]},"title":"Road network mix-zones for anonymous location based services.","venue":"ICDE","pages":"1300-1303","year":"2013","type":"Conference and Workshop Papers","key":"conf/icde/PalanisamyRLHLP13","doi":"10.1109/ICDE.2013.6544929","ee":"https://doi.org/10.1109/ICDE.2013.6544929","url":"https://dblp.org/rec/conf/icde/PalanisamyRLHLP13"},
+"url":"URL#2398763"
+},
+{
+"@score":"2",
+"@id":"2660096",
+"info":{"authors":{"author":[{"@pid":"05/4521","text":"James Horey"},{"@pid":"24/2144","text":"Stephanie Forrest"},{"@pid":"21/1684","text":"Michael M. Groat"}]},"title":"Reconstructing Spatial Distributions from Anonymized Locations.","venue":"ICDE Workshops","pages":"243-250","year":"2012","type":"Conference and Workshop Papers","key":"conf/icde/HoreyFG12","doi":"10.1109/ICDEW.2012.82","ee":"https://doi.org/10.1109/ICDEW.2012.82","url":"https://dblp.org/rec/conf/icde/HoreyFG12"},
+"url":"URL#2660096"
+},
+{
+"@score":"2",
+"@id":"2660195",
+"info":{"authors":{"author":[{"@pid":"32/8749","text":"Chih-Jye Wang"},{"@pid":"21/1694","text":"Wei-Shinn Ku"}]},"title":"Anonymous Sensory Data Collection Approach for Mobile Participatory Sensing.","venue":"ICDE Workshops","pages":"220-227","year":"2012","type":"Conference and Workshop Papers","key":"conf/icde/WangK12","doi":"10.1109/ICDEW.2012.78","ee":"https://doi.org/10.1109/ICDEW.2012.78","url":"https://dblp.org/rec/conf/icde/WangK12"},
+"url":"URL#2660195"
+},
+{
+"@score":"2",
+"@id":"2912850",
+"info":{"authors":{"author":[{"@pid":"14/7259","text":"Yeye He"},{"@pid":"63/478","text":"Siddharth Barman"},{"@pid":"n/JeffreyFNaughton","text":"Jeffrey F. Naughton"}]},"title":"Preventing equivalence attacks in updated, anonymized data.","venue":"ICDE","pages":"529-540","year":"2011","type":"Conference and Workshop Papers","key":"conf/icde/HeBN11","doi":"10.1109/ICDE.2011.5767924","ee":"https://doi.org/10.1109/ICDE.2011.5767924","url":"https://dblp.org/rec/conf/icde/HeBN11"},
+"url":"URL#2912850"
+},
+{
+"@score":"2",
+"@id":"3141375",
+"info":{"authors":{"author":[{"@pid":"c/GrahamCormode","text":"Graham Cormode"},{"@pid":"s/DiveshSrivastava","text":"Divesh Srivastava"}]},"title":"Anonymized Data - Generation, models, usage.","venue":"ICDE","pages":"1211-1212","year":"2010","type":"Conference and Workshop Papers","key":"conf/icde/CormodeS10","doi":"10.1109/ICDE.2010.5447721","ee":"https://doi.org/10.1109/ICDE.2010.5447721","url":"https://dblp.org/rec/conf/icde/CormodeS10"},
+"url":"URL#3141375"
+},
+{
+"@score":"2",
+"@id":"3141378",
+"info":{"authors":{"author":[{"@pid":"71/5974","text":"Sudipto Das"},{"@pid":"e/OEgecioglu","text":"Ömer Egecioglu"},{"@pid":"a/AmrElAbbadi","text":"Amr El Abbadi"}]},"title":"Anonymizing weighted social network graphs.","venue":"ICDE","pages":"904-907","year":"2010","type":"Conference and Workshop Papers","key":"conf/icde/DasEA10","doi":"10.1109/ICDE.2010.5447915","ee":"https://doi.org/10.1109/ICDE.2010.5447915","url":"https://dblp.org/rec/conf/icde/DasEA10"},
+"url":"URL#3141378"
+},
+{
+"@score":"2",
+"@id":"3141383",
+"info":{"authors":{"author":[{"@pid":"d/AlinDeutsch","text":"Alin Deutsch"},{"@pid":"h/RichardHull","text":"Richard Hull 0001"},{"@pid":"28/4866","text":"Avinash Vyas"},{"@pid":"63/3086","text":"Kevin Keliang Zhao"}]},"title":"Policy-aware sender anonymity in location based services.","venue":"ICDE","pages":"133-144","year":"2010","type":"Conference and Workshop Papers","key":"conf/icde/DeutschHVZ10","doi":"10.1109/ICDE.2010.5447823","ee":"https://doi.org/10.1109/ICDE.2010.5447823","url":"https://dblp.org/rec/conf/icde/DeutschHVZ10"},
+"url":"URL#3141383"
+},
+{
+"@score":"2",
+"@id":"3141446",
+"info":{"authors":{"author":[{"@pid":"95/3752","text":"Junqiang Liu"},{"@pid":"181/2613","text":"Ke Wang"}]},"title":"On optimal anonymization for l+-diversity.","venue":"ICDE","pages":"213-224","year":"2010","type":"Conference and Workshop Papers","key":"conf/icde/LiuW10","doi":"10.1109/ICDE.2010.5447898","ee":"https://doi.org/10.1109/ICDE.2010.5447898","url":"https://dblp.org/rec/conf/icde/LiuW10"},
+"url":"URL#3141446"
+},
+{
+"@score":"2",
+"@id":"3365427",
+"info":{"authors":{"author":[{"@pid":"90/5236-1","text":"Haibo Hu 0001"},{"@pid":"x/JianliangXu","text":"Jianliang Xu"}]},"title":"Non-Exposure Location Anonymity.","venue":"ICDE","pages":"1120-1131","year":"2009","type":"Conference and Workshop Papers","key":"conf/icde/HuX09","doi":"10.1109/ICDE.2009.106","ee":"https://doi.org/10.1109/ICDE.2009.106","url":"https://dblp.org/rec/conf/icde/HuX09"},
+"url":"URL#3365427"
+},
+{
+"@score":"2",
+"@id":"3365432",
+"info":{"authors":{"author":[{"@pid":"00/3310","text":"Ali Inan"},{"@pid":"36/195","text":"Murat Kantarcioglu"},{"@pid":"b/ElisaBertino","text":"Elisa Bertino"}]},"title":"Using Anonymized Data for Classification.","venue":"ICDE","pages":"429-440","year":"2009","type":"Conference and Workshop Papers","key":"conf/icde/InanKB09","doi":"10.1109/ICDE.2009.19","ee":"https://doi.org/10.1109/ICDE.2009.19","url":"https://dblp.org/rec/conf/icde/InanKB09"},
+"url":"URL#3365432"
+},
+{
+"@score":"2",
+"@id":"3365459",
+"info":{"authors":{"author":[{"@pid":"92/250","text":"Tiancheng Li"},{"@pid":"l/NinghuiLi","text":"Ninghui Li"},{"@pid":"07/314-3","text":"Jian Zhang 0003"}]},"title":"Modeling and Integrating Background Knowledge in Data Anonymization.","venue":"ICDE","pages":"6-17","year":"2009","type":"Conference and Workshop Papers","key":"conf/icde/LiLZ09","doi":"10.1109/ICDE.2009.86","ee":"https://doi.org/10.1109/ICDE.2009.86","url":"https://dblp.org/rec/conf/icde/LiLZ09"},
+"url":"URL#3365459"
+},
+{
+"@score":"2",
+"@id":"3365491",
+"info":{"authors":{"author":[{"@pid":"05/906","text":"Cecilia M. Procopiuc"},{"@pid":"s/DiveshSrivastava","text":"Divesh Srivastava"}]},"title":"Efficient Table Anonymization for Aggregate Query Answering.","venue":"ICDE","pages":"1291-1294","year":"2009","type":"Conference and Workshop Papers","key":"conf/icde/ProcopiucS09","doi":"10.1109/ICDE.2009.223","ee":"https://doi.org/10.1109/ICDE.2009.223","url":"https://dblp.org/rec/conf/icde/ProcopiucS09"},
+"url":"URL#3365491"
+},
+{
+"@score":"2",
+"@id":"3365534",
+"info":{"authors":{"author":[{"@pid":"w/KeWang","text":"Ke Wang 0001"},{"@pid":"82/338","text":"Yabo Xu"},{"@pid":"f/AdaWaiCheeFu","text":"Ada Wai-Chee Fu"},{"@pid":"w/RaymondChiWingWong","text":"Raymond Chi-Wing Wong"}]},"title":"FF-Anonymity - When Quasi-identifiers Are Missing.","venue":"ICDE","pages":"1136-1139","year":"2009","type":"Conference and Workshop Papers","key":"conf/icde/WangXFW09","doi":"10.1109/ICDE.2009.184","ee":"https://doi.org/10.1109/ICDE.2009.184","url":"https://dblp.org/rec/conf/icde/WangXFW09"},
+"url":"URL#3365534"
+},
+{
+"@score":"2",
+"@id":"3571208",
+"info":{"authors":{"author":[{"@pid":"86/6459","text":"Osman Abul"},{"@pid":"b/FBonchi","text":"Francesco Bonchi"},{"@pid":"60/6693","text":"Mirco Nanni"}]},"title":"Never Walk Alone - Uncertainty for Anonymity in Moving Objects Databases.","venue":"ICDE","pages":"376-385","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/AbulBN08","doi":"10.1109/ICDE.2008.4497446","ee":"https://doi.org/10.1109/ICDE.2008.4497446","url":"https://dblp.org/rec/conf/icde/AbulBN08"},
+"url":"URL#3571208"
+},
+{
+"@score":"2",
+"@id":"3571263",
+"info":{"authors":{"author":[{"@pid":"13/2139","text":"Jianneng Cao"},{"@pid":"83/2099","text":"Barbara Carminati"},{"@pid":"f/ElenaFerrari","text":"Elena Ferrari"},{"@pid":"t/KianLeeTan","text":"Kian-Lee Tan"}]},"title":"CASTLE - A delay-constrained scheme for ks-anonymizing data streams.","venue":"ICDE","pages":"1376-1378","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/CaoCFT08","doi":"10.1109/ICDE.2008.4497561","ee":"https://doi.org/10.1109/ICDE.2008.4497561","url":"https://dblp.org/rec/conf/icde/CaoCFT08"},
+"url":"URL#3571263"
+},
+{
+"@score":"2",
+"@id":"3571308",
+"info":{"authors":{"author":[{"@pid":"26/2836","text":"Rinku Dewri"},{"@pid":"r/IndrajitRay","text":"Indrajit Ray"},{"@pid":"r/IndrakshiRay","text":"Indrakshi Ray"},{"@pid":"w/LDarrellWhitley","text":"L. Darrell Whitley"}]},"title":"On the Optimal Selection of k in the k-Anonymity Problem.","venue":"ICDE","pages":"1364-1366","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/DewriRRW08","doi":"10.1109/ICDE.2008.4497557","ee":"https://doi.org/10.1109/ICDE.2008.4497557","url":"https://dblp.org/rec/conf/icde/DewriRRW08"},
+"url":"URL#3571308"
+},
+{
+"@score":"2",
+"@id":"3571330",
+"info":{"authors":{"author":[{"@pid":"80/6521","text":"Gabriel Ghinita"},{"@pid":"t/YufeiTao","text":"Yufei Tao"},{"@pid":"97/3036","text":"Panos Kalnis"}]},"title":"On the Anonymization of Sparse High-Dimensional Data.","venue":"ICDE","pages":"715-724","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/GhinitaTK08","doi":"10.1109/ICDE.2008.4497480","ee":"https://doi.org/10.1109/ICDE.2008.4497480","url":"https://dblp.org/rec/conf/icde/GhinitaTK08"},
+"url":"URL#3571330"
+},
+{
+"@score":"2",
+"@id":"3571331",
+"info":{"authors":{"author":[{"@pid":"g/AristidesGionis","text":"Aristides Gionis"},{"@pid":"01/6729","text":"Arnon Mazza"},{"@pid":"04/2852","text":"Tamir Tassa"}]},"title":"k-Anonymization Revisited.","venue":"ICDE","pages":"744-753","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/GionisMT08","doi":"10.1109/ICDE.2008.4497483","ee":"https://doi.org/10.1109/ICDE.2008.4497483","url":"https://dblp.org/rec/conf/icde/GionisMT08"},
+"url":"URL#3571331"
+},
+{
+"@score":"2",
+"@id":"3571388",
+"info":{"authors":{"author":[{"@pid":"92/250","text":"Tiancheng Li"},{"@pid":"l/NinghuiLi","text":"Ninghui Li"}]},"title":"Injector - Mining Background Knowledge for Data Anonymization.","venue":"ICDE","pages":"446-455","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/LiL08","doi":"10.1109/ICDE.2008.4497453","ee":"https://doi.org/10.1109/ICDE.2008.4497453","url":"https://dblp.org/rec/conf/icde/LiL08"},
+"url":"URL#3571388"
+},
+{
+"@score":"2",
+"@id":"3571390",
+"info":{"authors":{"author":[{"@pid":"18/6870","text":"Jianzhong Li"},{"@pid":"o/BengChinOoi","text":"Beng Chin Ooi"},{"@pid":"72/4134-1","text":"Weiping Wang 0001"}]},"title":"Anonymizing Streaming Data for Privacy Protection.","venue":"ICDE","pages":"1367-1369","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/LiOW08","doi":"10.1109/ICDE.2008.4497558","ee":"https://doi.org/10.1109/ICDE.2008.4497558","url":"https://dblp.org/rec/conf/icde/LiOW08"},
+"url":"URL#3571390"
+},
+{
+"@score":"2",
+"@id":"3571483",
+"info":{"authors":{"author":[{"@pid":"97/2730","text":"Alberto Trombetta"},{"@pid":"21/3839","text":"Wei Jiang"},{"@pid":"b/ElisaBertino","text":"Elisa Bertino"},{"@pid":"36/5193","text":"Lorenzo Bossi"}]},"title":"Privately Updating Suppression and Generalization based k-Anonymous Databases.","venue":"ICDE","pages":"1370-1372","year":"2008","type":"Conference and Workshop Papers","key":"conf/icde/TrombettaJBB08","doi":"10.1109/ICDE.2008.4497559","ee":"https://doi.org/10.1109/ICDE.2008.4497559","url":"https://dblp.org/rec/conf/icde/TrombettaJBB08"},
+"url":"URL#3571483"
+},
+{
+"@score":"2",
+"@id":"3764603",
+"info":{"authors":{"author":[{"@pid":"51/3199","text":"Yang Du"},{"@pid":"90/4765","text":"Tian Xia"},{"@pid":"t/YufeiTao","text":"Yufei Tao"},{"@pid":"79/2619","text":"Donghui Zhang"},{"@pid":"71/2791","text":"Feng Zhu"}]},"title":"On Multidimensional k-Anonymity with Local Recoding Generalization.","venue":"ICDE","pages":"1422-1424","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/DuXTZZ07","doi":"10.1109/ICDE.2007.369026","ee":"https://doi.org/10.1109/ICDE.2007.369026","url":"https://dblp.org/rec/conf/icde/DuXTZZ07"},
+"url":"URL#3764603"
+},
+{
+"@score":"2",
+"@id":"3764681",
+"info":{"authors":{"author":[{"@pid":"l/NinghuiLi","text":"Ninghui Li"},{"@pid":"92/250","text":"Tiancheng Li"},{"@pid":"12/4662","text":"Suresh Venkatasubramanian"}]},"title":"t-Closeness - Privacy Beyond k-Anonymity and l-Diversity.","venue":"ICDE","pages":"106-115","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/LiLV07","doi":"10.1109/ICDE.2007.367856","ee":"https://doi.org/10.1109/ICDE.2007.367856","url":"https://dblp.org/rec/conf/icde/LiLV07"},
+"url":"URL#3764681"
+},
+{
+"@score":"2",
+"@id":"3764717",
+"info":{"authors":{"author":[{"@pid":"81/5926","text":"Mehmet Ercan Nergiz"},{"@pid":"c/CClifton","text":"Chris Clifton"},{"@pid":"54/4147","text":"Ahmet Erhan Nergiz"}]},"title":"MultiRelational k-Anonymity.","venue":"ICDE","pages":"1417-1421","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/NergizCN07","doi":"10.1109/ICDE.2007.369025","ee":"https://doi.org/10.1109/ICDE.2007.369025","url":"https://dblp.org/rec/conf/icde/NergizCN07"},
+"url":"URL#3764717"
+},
+{
+"@score":"2",
+"@id":"3764820",
+"info":{"authors":{"author":[{"@pid":"05/5262","text":"Polixeni Zacharouli"},{"@pid":"64/4944","text":"Aris Gkoulalas-Divanis"},{"@pid":"94/1028","text":"Vassilios S. Verykios"}]},"title":"A k-Anonymity Model for Spatio-Temporal Data.","venue":"ICDE Workshops","pages":"555-564","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/ZacharouliGV07","doi":"10.1109/ICDEW.2007.4401041","ee":"https://doi.org/10.1109/ICDEW.2007.4401041","url":"https://dblp.org/rec/conf/icde/ZacharouliGV07"},
+"url":"URL#3764820"
+},
+{
+"@score":"2",
+"@id":"3764823",
+"info":{"authors":{"author":[{"@pid":"68/1429","text":"Qing Zhang"},{"@pid":"k/NickKoudas","text":"Nick Koudas"},{"@pid":"s/DiveshSrivastava","text":"Divesh Srivastava"},{"@pid":"y/TingYu","text":"Ting Yu"}]},"title":"Aggregate Query Answering on Anonymized Tables.","venue":"ICDE","pages":"116-125","year":"2007","type":"Conference and Workshop Papers","key":"conf/icde/ZhangKSY07","doi":"10.1109/ICDE.2007.367857","ee":"https://doi.org/10.1109/ICDE.2007.367857","url":"https://dblp.org/rec/conf/icde/ZhangKSY07"},
+"url":"URL#3764823"
+},
+{
+"@score":"2",
+"@id":"3941540",
+"info":{"authors":{"author":[{"@pid":"95/5211","text":"Kristen LeFevre"},{"@pid":"d/DJDeWitt","text":"David J. DeWitt"},{"@pid":"r/RaghuRamakrishnan","text":"Raghu Ramakrishnan"}]},"title":"Mondrian Multidimensional K-Anonymity.","venue":"ICDE","pages":"25","year":"2006","type":"Conference and Workshop Papers","key":"conf/icde/LeFevreDR06","doi":"10.1109/ICDE.2006.101","ee":"https://doi.org/10.1109/ICDE.2006.101","url":"https://dblp.org/rec/conf/icde/LeFevreDR06"},
+"url":"URL#3941540"
+},
+{
+"@score":"2",
+"@id":"3941560",
+"info":{"authors":{"author":[{"@pid":"m/AMachanavajjhala","text":"Ashwin Machanavajjhala"},{"@pid":"g/JohannesGehrke","text":"Johannes Gehrke"},{"@pid":"84/114","text":"Daniel Kifer"},{"@pid":"64/4755","text":"Muthuramakrishnan Venkitasubramaniam"}]},"title":"l-Diversity - Privacy Beyond k-Anonymity.","venue":"ICDE","pages":"24","year":"2006","type":"Conference and Workshop Papers","key":"conf/icde/MachanavajjhalaGKV06","doi":"10.1109/ICDE.2006.1","ee":"https://doi.org/10.1109/ICDE.2006.1","url":"https://dblp.org/rec/conf/icde/MachanavajjhalaGKV06"},
+"url":"URL#3941560"
+},
+{
+"@score":"2",
+"@id":"3941578",
+"info":{"authors":{"author":[{"@pid":"81/5926","text":"Mehmet Ercan Nergiz"},{"@pid":"c/CClifton","text":"Chris Clifton"}]},"title":"Thoughts on k-Anonymization.","venue":"ICDE Workshops","pages":"96","year":"2006","type":"Conference and Workshop Papers","key":"conf/icde/NergizC06","doi":"10.1109/ICDEW.2006.147","ee":"https://doi.org/10.1109/ICDEW.2006.147","url":"https://dblp.org/rec/conf/icde/NergizC06"},
+"url":"URL#3941578"
+},
+{
+"@score":"2",
+"@id":"3941654",
+"info":{"authors":{"author":[{"@pid":"97/2730","text":"Alberto Trombetta"},{"@pid":"b/ElisaBertino","text":"Elisa Bertino"}]},"title":"Private Updates to Anonymous Databases.","venue":"ICDE","pages":"116","year":"2006","type":"Conference and Workshop Papers","key":"conf/icde/TrombettaB06","doi":"10.1109/ICDE.2006.117","ee":"https://doi.org/10.1109/ICDE.2006.117","url":"https://dblp.org/rec/conf/icde/TrombettaB06"},
+"url":"URL#3941654"
+},
+{
+"@score":"2",
+"@id":"3941655",
+"info":{"authors":{"author":[{"@pid":"26/3228","text":"Traian Marius Truta"},{"@pid":"81/259","text":"Bindu Vinay"}]},"title":"Privacy Protection - p-Sensitive k-Anonymity Property.","venue":"ICDE Workshops","pages":"94","year":"2006","type":"Conference and Workshop Papers","key":"conf/icde/TrutaV06","doi":"10.1109/ICDEW.2006.116","ee":"https://doi.org/10.1109/ICDEW.2006.116","url":"https://dblp.org/rec/conf/icde/TrutaV06"},
+"url":"URL#3941655"
+},
+{
+"@score":"2",
+"@id":"4100940",
+"info":{"authors":{"author":[{"@pid":"b/RobertoJBayardo","text":"Roberto J. Bayardo Jr."},{"@pid":"a/RAgrawal","text":"Rakesh Agrawal 0001"}]},"title":"Data Privacy through Optimal k-Anonymization.","venue":"ICDE","pages":"217-228","year":"2005","type":"Conference and Workshop Papers","key":"conf/icde/BayardoA05","doi":"10.1109/ICDE.2005.42","ee":"https://doi.org/10.1109/ICDE.2005.42","url":"https://dblp.org/rec/conf/icde/BayardoA05"},
+"url":"URL#4100940"
+}
+]
+}
+}
+}
